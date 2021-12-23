@@ -18,3 +18,25 @@ app.secret_key = SECRET_KEY
 def hello_world():
     return "<p>Hello, World!</p>"
 
+@app.route("/query")
+@app.route("/query/<page>")
+def query_DB(page=1):
+    return query(page)
+    
+@app.route("/page")
+@app.route("/page/<p>")
+def test(p=1):
+    return str(p)   
+    
+
+@app.route("/search")
+@app.route("/search/<tag>")
+def search_DB(tag=''):
+    print(tag)
+    data = search(tag)
+    return data    
+
+@app.route("/start")
+def strt():
+    asyncio.run(start())
+    return "S"
