@@ -14,7 +14,7 @@ GOOGLE_API_KEY = environ.get('GOOGLE_API_KEY')
 
 db = configDB()
 
-
+# controler for quering database and getting paginated responce
 def query(page):
     page_limit=20
     page = int(page)
@@ -24,6 +24,7 @@ def query(page):
         Data.append(data)
     return jsonify(Data)    
 
+# controler for searching videos using keyword in title or discription
 def search(tag):
     db.create_index([('Title', "text"), ('Description', "text")])
     data_cursor = db.find({"$text":{"$search":tag}}) 
@@ -33,6 +34,7 @@ def search(tag):
     return jsonify(Data)       
 
 
+# controler for fetching latest videos from YouTube
 async def video_data():
     page_token = ""
     # k=5  
@@ -97,7 +99,7 @@ async def video_data():
                     print(r.inserted_id)
         time.sleep(10)  
           
-
+# start fetching
 async def start():
     loop = asyncio.get_event_loop()
     print('loop started')
