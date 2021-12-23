@@ -28,14 +28,14 @@ create `.env` file containg <br>
   in `cmd` enter `run`
 
 # References
-https://github.com/durgeshmeena/Fampay-Backend/blob/assets/Screenshot%20(38).png
-https://github.com/durgeshmeena/Fampay-Backend/blob/assets/Screenshot%20(39).png
-https://github.com/durgeshmeena/Fampay-Backend/blob/assets/Screenshot%20(40).png
-https://github.com/durgeshmeena/Fampay-Backend/blob/assets/Screenshot%20(41).png
-https://github.com/durgeshmeena/Fampay-Backend/blob/assets/Screenshot%20(42).png
-https://github.com/durgeshmeena/Fampay-Backend/blob/assets/Screenshot%20(43).png
-https://github.com/durgeshmeena/Fampay-Backend/blob/assets/Screenshot%20(44).png
-https://github.com/durgeshmeena/Fampay-Backend/blob/assets/Screenshot%20(45).png
-https://github.com/durgeshmeena/Fampay-Backend/blob/assets/Screenshot%20(46).png
+![referce images](https://github.com/durgeshmeena/Fampay-Backend/blob/assets/Screenshot%20(38).png)
+![referce images](https://github.com/durgeshmeena/Fampay-Backend/blob/assets/Screenshot%20(39).png)
+![referce images](https://github.com/durgeshmeena/Fampay-Backend/blob/assets/Screenshot%20(40).png)
+![referce images](https://github.com/durgeshmeena/Fampay-Backend/blob/assets/Screenshot%20(41).png)
+![referce images](https://github.com/durgeshmeena/Fampay-Backend/blob/assets/Screenshot%20(42).png)
+![referce images](https://github.com/durgeshmeena/Fampay-Backend/blob/assets/Screenshot%20(43).png)
+![referce images](https://github.com/durgeshmeena/Fampay-Backend/blob/assets/Screenshot%20(44).png)
+![referce images](https://github.com/durgeshmeena/Fampay-Backend/blob/assets/Screenshot%20(45).png)
+![referce images](https://github.com/durgeshmeena/Fampay-Backend/blob/assets/Screenshot%20(46).png)
 
 
