@@ -24,7 +24,13 @@ def query(page):
         Data.append(data)
     return jsonify(Data)    
 
-     
+def search(tag):
+    db.create_index([('Title', "text"), ('Description', "text")])
+    data_cursor = db.find({"$text":{"$search":tag}}) 
+    Data = []
+    for data in data_cursor:
+        Data.append(data)
+    return jsonify(Data)       
 
 
 async def video_data():
