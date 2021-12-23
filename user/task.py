@@ -15,6 +15,15 @@ GOOGLE_API_KEY = environ.get('GOOGLE_API_KEY')
 db = configDB()
 
 
+def query(page):
+    page_limit=20
+    page = int(page)
+    data_cursor = db.find().skip( (page-1)*page_limit ).limit(20).sort('publishTime', -1)
+    Data = []
+    for data in data_cursor:
+        Data.append(data)
+    return jsonify(Data)    
+
      
 
 
