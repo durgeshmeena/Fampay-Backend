@@ -28,14 +28,27 @@ create `.env` file containg <br>
   in `cmd` enter `run`
 
 # References
+
+## Home -
 ![referce images](https://github.com/durgeshmeena/Fampay-Backend/blob/assets/Screenshot%20(38).png)
+
+## Quering(Paginated) -
 ![referce images](https://github.com/durgeshmeena/Fampay-Backend/blob/assets/Screenshot%20(39).png)
+
 ![referce images](https://github.com/durgeshmeena/Fampay-Backend/blob/assets/Screenshot%20(40).png)
+
 ![referce images](https://github.com/durgeshmeena/Fampay-Backend/blob/assets/Screenshot%20(41).png)
+
 ![referce images](https://github.com/durgeshmeena/Fampay-Backend/blob/assets/Screenshot%20(42).png)
+
+## Searching -
 ![referce images](https://github.com/durgeshmeena/Fampay-Backend/blob/assets/Screenshot%20(43).png)
+
+## Fetching Videos -
 ![referce images](https://github.com/durgeshmeena/Fampay-Backend/blob/assets/Screenshot%20(44).png)
+
 ![referce images](https://github.com/durgeshmeena/Fampay-Backend/blob/assets/Screenshot%20(45).png)
+
 ![referce images](https://github.com/durgeshmeena/Fampay-Backend/blob/assets/Screenshot%20(46).png)
 
 
